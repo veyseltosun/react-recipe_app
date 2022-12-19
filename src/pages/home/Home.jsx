@@ -3,7 +3,7 @@ import { HomeImg, ImgDiv, MainContainer,} from "./HomeStyle"
 import Header from '../../components/header/Header'
 import axios from 'axios';
 import RecipeCardComp from './RecipeCardComp';
-import homeSvg from "../../assets/meal.svg"
+import homeSvg from "../../assets/home.svg"
 
 const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
 
