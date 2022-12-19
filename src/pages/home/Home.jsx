@@ -11,7 +11,7 @@ const APP_ID = "e62b0b0f";
 const APP_KEY = "3e90d6f17a2e7fd7004bfb5942623bae";
 // const APP_ID = process.env.REACT_APP_APP_ID;
 // const APP_KEY = process.env.REACT_APP_APP_KEY;
-console.log(APP_ID, APP_KEY);
+// console.log(APP_ID, APP_KEY);
 
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
     if(query !== ""){
 
       const result= await axios.get(url)
-        console.log(result.data.hits)
+        // console.log(result.data.hits)
 
         if(!result.data.more){
           alert(`No food with such ${query}`)
